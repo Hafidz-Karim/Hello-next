@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "dev": "next build",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -13,8 +13,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "next": "^15.1.5"
+  },
+  "devDependencies": {
     "@types/node": "^22.10.7",
-    "next": "^15.1.5",
+    "@types/react": "19.0.7",
     "typescript": "^5.7.3"
   }
 }
